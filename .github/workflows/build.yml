@@ -14,7 +14,7 @@ jobs:
       - name: Descompactar projeto (se enviado como zip)
         run: |
           if [ -f LimpaCel.zip ]; then
-            unzip -o LimpaCel.zip
+            unzip -n LimpaCel.zip
           fi
 
       - name: Configurar Java
